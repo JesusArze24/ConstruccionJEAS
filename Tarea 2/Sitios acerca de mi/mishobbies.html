@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img class="fotoheader" src="/Tarea 2/imagenes/fotoyo.jpg" alt="Foto Principal">
+        <nav>
+            <a href="yo.html">Sobre mí</a>
+            <a href="mifamilia.html">Mi familia</a>
+            <a href="misamigos.html">Mis amigos</a>
+            <a href="miciudad.html">Mi ciudad</a>
+        </nav>
+    </header>
+    <main>
+        <h1 class="centrar">MIS HOBBIES</h1>
+        <div class="fotoportada">
+            <img src="/Tarea 2/imagenes/raqueta.jpg" alt="Foto Portada">
+        </div>
+        <section class="centrar">
+            <p>Me apasiona mantenerme activo y disfrutar del aire libre. Uno de mis pasatiempos favoritos es jugar deportes de raqueta; hay algo en la combinación de concentración y movimiento que me resulta muy estimulante. Además de eso, la música también ocupa un lugar importante en mi vida. Ya sea explorando nuevos géneros o simplemente disfrutando de mis favoritos, la música siempre está presente.
+
+                También me gusta explorar nuevos rincones de mi ciudad, ya sea un parque tranquilo, un café interesante o cualquier lugar donde pueda relajarme y desconectar. Para mí, estas actividades son la mejor manera de mantener un equilibrio, disfrutar y, sobre todo, de estar siempre en contacto conmigo mismo.
+            </p>
+            <h2>¿y que te gusta hacer a ti?</h2>
+            <form>
+                <div class="ingreso">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="ingreso">
+                    <label for="age">Edad:</label>
+                    <input type="number" id="age" name="age" min="0" required>
+                </div>
+                <div class="ingreso">
+                    <label for="hobbies">Cuentame de ti</label>
+                    <textarea id="hobbies" name="hobbies"></textarea>
+                </div>
+                <div class="ingreso">
+                    <label for="like">Pasatiempos favoritos</label>
+                    <textarea id="like" name="like" placeholder="Escribe aquí tus gustos"></textarea>
+                </div>
+                <div class="ingreso">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="mishobbies.html">Inicio</a>
+    </footer>
+</body>
+</html>

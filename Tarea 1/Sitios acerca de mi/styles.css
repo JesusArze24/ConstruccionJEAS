@@ -80,6 +80,9 @@ footer{
 table {
     text-align: center;
     margin-bottom: 70px;
+    th, td {
+        border: 1px solid #333;
+    }
 }
 
 video{
